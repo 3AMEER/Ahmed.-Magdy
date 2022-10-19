@@ -11,3 +11,10 @@ const checkBoxes = () => {
 
 window.addEventListener("scroll", checkBoxes);
 checkBoxes()
+
+// Strat loader
+let loader = document.querySelector(".loader");
+
+setTimeout(() => {
+    loader.style.display = "none"
+}, 2000);
