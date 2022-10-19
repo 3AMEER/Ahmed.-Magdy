@@ -23,3 +23,9 @@ for(let i = 0; i < icons.length; i++){
         love.style.cssText = "color: red;";
     }
 }
+// Strat loader
+let loader = document.querySelector(".loader");
+
+setTimeout(() => {
+    loader.style.display = "none"
+}, 2000);
