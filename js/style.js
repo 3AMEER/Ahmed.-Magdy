@@ -47,3 +47,12 @@ let loader = document.querySelector(".loader");
 setTimeout(() => {
     loader.style.display = "none"
 }, 3000);
+
+// Start Traker 
+const traker = document.querySelector(".traker-pop");
+document.addEventListener("mousemove", (e) =>{
+    traker.style.cssText = `
+    top: ${e.y - 40}px;
+    left: ${e.x - 40}px;
+    `;
+})
