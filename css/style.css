@@ -582,6 +582,8 @@ li{
     align-items: center;
     flex-direction: column;
     justify-content: space-between;
+    margin: auto;
+    max-width: 1000px;
 }
 .projects .container .main-box{
     width: 100%;
